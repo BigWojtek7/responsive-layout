@@ -91,49 +91,20 @@ h3 {
 }
 
 .btn-toggle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.2rem;
   color: #fff;
   border: none;
-  background-color: #000;
+  background-color: inherit;
   position: absolute;
+  padding: 0;
   left: 0;
   cursor: pointer;
 }
 
-.btn-toggle img {
-  width: 1.2em;
-  vertical-align: middle;
+.btn-toggle img[src*='svg'] {
+  width: 3em;
 }
-
-.hamburger {
-  width: 50%;
-  position: relative;
-}
-
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-  display: block;
-  margin: 0 auto;
-  height: 3px;
-  background: white;
-}
-
-.hamburger::before,
-.hamburger::after {
-  content: '';
-  width: 100%;
-}
-
-.hamburger::before {
-  transform: translateY(-6px);
-}
-
-.hamburger::after {
-  transform: translateY(3px);
+.logo img[src*='svg'] {
+  width: 7em;
 }
 
 .hero {
