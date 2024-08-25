@@ -85,8 +85,8 @@ h3 {
 }
 
 .btn-toggle {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   font-size: 1.2rem;
   color: #fff;
@@ -98,7 +98,7 @@ h3 {
 }
 
 .btn-toggle img {
-  width: 1.5em;
+  width: 1.2em;
   vertical-align: middle;
 }
 
@@ -301,7 +301,7 @@ h3 {
   .footer-links {
     width: 50%;
   }
-  
+
   .footer .list-item {
     margin-bottom: 1em;
   }
