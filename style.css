@@ -51,10 +51,6 @@ h3 {
   width: 100%;
 }
 
-.logo img {
-  height: 30px;
-}
-
 .nav {
   position: absolute;
   height: 0;
@@ -82,7 +78,7 @@ h3 {
   color: #fff;
 }
 
-.nav-link-button{
+.nav-link-button {
   background-color: #a59678;
   padding: 0.1em 0.75em;
   border-radius: 100px;
@@ -96,19 +92,17 @@ h3 {
   color: #fff;
   border: none;
   background-color: #000;
-  position: absolute; 
+  position: absolute;
   left: 0;
   cursor: pointer;
-  
 }
+
 .btn-toggle img {
   width: 1.5em;
   vertical-align: middle;
 }
 
 .hero {
-  display: flex;
-  align-items: center;
   background-color: #3b4050;
   color: #fff;
   padding: 6em 0;
@@ -244,14 +238,17 @@ h3 {
   .sidebar-card {
     margin-left: 10px;
   }
-
 }
 
 @media (min-width: 1000px) {
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
   .btn-toggle {
     display: none;
   }
-
 
   .nav {
     visibility: visible;
@@ -267,19 +264,20 @@ h3 {
     padding: 0;
   }
 
-
   .nav-item {
     margin: 0;
     margin-left: 1.5em;
   }
+
   .section-element {
     width: 25%;
   }
+
   .primary-content {
     width: 55%;
   }
 
-  .hero-title{
+  .hero-title {
     font-size: 5.625rem;
   }
 
@@ -292,26 +290,23 @@ h3 {
     margin-left: 0;
   }
 
-  .row {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-
   .footer-nav {
     text-align: left;
   }
+
   .footer-about {
     width: 40%;
   }
+
   .footer-links {
     width: 50%;
   }
+  
   .footer .list-item {
     margin-bottom: 1em;
   }
 
-  .section-img img{
+  .section-img img {
     width: 100%;
     max-height: 100%;
   }
