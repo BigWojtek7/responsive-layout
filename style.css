@@ -103,6 +103,10 @@ h3 {
   cursor: pointer;
 }
 
+.btn-toggle img {
+  width: 1.2em;
+  vertical-align: middle;
+}
 
 .hamburger {
   width: 50%;
