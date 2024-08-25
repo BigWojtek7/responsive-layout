@@ -17,7 +17,9 @@
   <body>
     <header class="header">
       <div class="container row">
-        <button class="btn-toggle"><img src="./img/menu.svg" alt="menu icon"></button>
+        <button class="btn-toggle">
+          <img src="./img/menu.svg" alt="menu icon" />
+        </button>
         <a href="#" class="logo">
           <img src="./img/logo.svg" alt="Logo" />
         </a>
@@ -46,8 +48,9 @@
     </header>
     <section class="hero">
       <div class="container row">
-
-          <h1 class="hero-title">Responsive layouts <span>don't have to be a struggle</span></h1>
+        <h1 class="hero-title">
+          Responsive layouts <span>don't have to be a struggle</span>
+        </h1>
 
         <div class="hero-text">
           <p>
@@ -102,7 +105,17 @@
           </p>
 
           <div class="section-img">
-            <img src="./img/the-image.jpg" alt="website sketches" />
+            <picture>
+              <source
+                srcset="./img/the-image.jpg"
+                media="(min-width: 1000px)"
+              />
+              <source
+                srcset="./img/the-image-tablet.jpg"
+                media="(min-width: 700px)"
+              />
+              <img src="./img/the-image-mobile.jpg" alt="Website sketches" />
+            </picture>
           </div>
 
           <p class="primary-text">
