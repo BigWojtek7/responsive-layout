@@ -72,6 +72,7 @@ h3 {
 
 .logo {
   z-index: 10;
+  cursor: pointer;
 }
 
 .nav-item {
