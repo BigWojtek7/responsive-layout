@@ -1,0 +1,322 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #2e323f;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.header,
+.btn,
+.hero-title,
+.section-title,
+.primary-title,
+.sidebar-title,
+.footer-title,
+.links-title {
+  font-family: 'Oswald', serif;
+  font-weight: 700;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+}
+
+.header {
+  text-align: center;
+  background-color: #2e323f;
+  padding: 1.3em 0;
+  font-size: 1.2rem;
+}
+.nav {
+  width: 100%;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.nav {
+  position: absolute;
+  height: 0;
+  visibility: hidden;
+  text-transform: uppercase;
+}
+
+.nav-visible {
+  position: relative;
+  height: auto;
+  visibility: visible;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+.nav-item {
+  margin-bottom: 1em;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link-button{
+  background-color: #a59678;
+  padding: 0.1em 0.75em;
+  border-radius: 100px;
+}
+
+.btn-toggle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+  background-color: #000;
+  position: absolute; 
+  left: 0;
+  cursor: pointer;
+  
+}
+.btn-toggle img {
+  width: 1.5em;
+  vertical-align: middle;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #3b4050;
+  color: #fff;
+  padding: 6em 0;
+}
+
+.hero-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+.hero-title span {
+  color: #a59678;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  align-self: flex-end;
+  margin-top: 2em;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  background-color: #a59678;
+  padding: 0.5em 2em;
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: 'Oswald', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section-second {
+  background-color: #ecebe9;
+  padding: 4em 0;
+  text-align: center;
+}
+.section-title {
+  margin-top: 1.3em;
+  color: #a59678;
+  font-size: 1.9rem;
+}
+.section-text {
+  font-size: 1.125rem;
+}
+
+.section-third {
+  padding: 7em 0;
+}
+
+.primary-title {
+  color: #a59678;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.primary-text {
+  font-size: 1.313rem;
+  margin-bottom: 2em;
+}
+
+.sidebar {
+  color: #fff;
+  text-align: center;
+}
+.sidebar-title {
+  font-size: 1.875rem;
+}
+.sidebar-text {
+  font-size: 1.125rem;
+}
+
+.sidebar-card {
+  padding: 3em 2em;
+  background-color: #3b4050;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.footer {
+  background-color: #3b4050;
+  color: #fff;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.primary-footer-title {
+  margin-bottom: 2em;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+}
+
+.footer-title,
+.links-title {
+  color: #a59678;
+}
+
+.footer-text,
+.list-item a {
+  font-size: 1rem;
+}
+
+.links-title {
+  font-size: 1.313rem;
+}
+
+.links-list {
+  padding: 0;
+}
+
+.list-item {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: inherit;
+}
+  .section-img img{
+    width: 100%;
+    max-height: 300px;
+  }
+@media (min-width: 700px) {
+  .sidebar {
+    display: flex;
+  }
+
+  .sidebar-card {
+    padding: 1em;
+  }
+
+  .sidebar-card {
+    margin-left: 10px;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .btn-toggle {
+    display: none;
+  }
+
+
+  .nav {
+    visibility: visible;
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    gap: 2em;
+  }
+
+  .nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .nav-item {
+    margin: 0;
+    margin-left: 1.5em;
+  }
+  .section-element {
+    width: 25%;
+  }
+  .primary-content {
+    width: 55%;
+  }
+
+  .hero-title{
+    font-size: 5.625rem;
+  }
+
+  .sidebar {
+    flex-direction: column;
+    width: 35%;
+  }
+
+  .sidebar-card {
+    margin-left: 0;
+  }
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    text-align: left;
+  }
+  .footer-about {
+    width: 40%;
+  }
+  .footer-links {
+    width: 50%;
+  }
+  .footer .list-item {
+    margin-bottom: 1em;
+  }
+
+  .section-img img{
+    width: 100%;
+    max-height: 100%;
+  }
+}
